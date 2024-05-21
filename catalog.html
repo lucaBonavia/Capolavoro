@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html data-bs-theme="auto">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+
+  <title>Sports Diamond</title>
+  <link rel="icon" href="img/logo-icon.png" >
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+  <!-- CSS -->
+  <link href="css/general.css" rel="stylesheet">
+  <link href="css/header.css" rel="stylesheet">
+
+  <!-- Personal styles and scripts -->
+  <link href="css/catalog.css" rel="stylesheet">
+  <script src="js/head.js"></script>
+  <script src="js/dark-mode.js"></script>
+  <script type="module" src="js/header-footer.js" defer></script>
+</head>
+
+<body>
+  <main class="container">
+    <!--<div id="js-product-added" class="card m-5 d-none">
+      <div class="card-body d-flex align-items-center justify-content-center">
+        <div>
+          <img id="product-added-img" class="product-added-img m-3" src="img/air-hockey.png" alt="immagine prodotto">
+        </div>
+        <p class="h3">✅ Aggiunto al carrello</p>
+      </div>
+    </div>-->
+
+    <div class="d-flex justify-content-between align-items-center">
+      <p class="fw-bold fs-3 mt-3">Le nostre proposte</p>
+      <div>
+        <span>Ordina per: </span>
+        <select class="quantity-select js-quantity-select mb-3" name="sort-mode" id="sort-mode">
+          <option value="A-Z" selected>A-Z</option>
+          <option value="Z-A">Z-A</option>
+          <option value="buy-ascending">Acquisto: crescente</option>
+          <option value="buy-descending">Acquisto: decrescente</option>
+          <option value="rent-ascending">Noleggio: crescente</option>
+          <option value="rent-descending">Noleggio: decrescente</option>
+          <option value="rating-count-ascending">Numero recensioni ⭡</option>
+          <option value="rating-count-descending">Numero recensioni ⭣</option>
+          <option value="rating-stars-ascending">Valore recensioni ⭡</option>
+          <option value="rating-stars-descending">Valore recensioni ⭣</option>
+        </select>
+      </div>
+    </div>
+
+
+    <div class="row p-1" id="cards">
+      <!-- JAVASCRIPT -->
+    </div>
+  </main>
+
+  <script type="module" src="js/catalog.js"></script>
+</body>
+
+</html>
