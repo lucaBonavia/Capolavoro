@@ -1,0 +1,7 @@
+.info-images, .map {
+  box-shadow: 2px 2px 5px black;
+}
+
+.star-review {
+  height: 20px;
+}

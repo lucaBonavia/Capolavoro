@@ -1,0 +1,25 @@
+/*:root {
+  --border: black;
+  --blue: rgb(12, 124, 210);
+  --bg-blue: #1B48D7;
+  --main-bg-blue: #F2F2F3;
+  --writings: white;
+  --gray: #CBCBCD;
+  --orange: #FFA600;
+  --yellow: #FFEC00;
+}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap');
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: Maven Pro, Arial;
+}
+
+main {
+  padding-top: 100px;
+}

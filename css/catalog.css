@@ -1,0 +1,11 @@
+.rating-img {
+  height: 12px;
+}
+
+.product-card:hover {
+  transform: scale(103%, 103%);
+}
+
+.product-added-img {
+  height: 100px;
+}
